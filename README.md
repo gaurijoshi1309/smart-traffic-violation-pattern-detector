@@ -1,30 +1,40 @@
 # 🚦 Smart Traffic Violation Pattern Detector
 
-An interactive **Streamlit-based analytics dashboard** for analyzing Indian traffic violation data.  
-This project identifies **violation patterns, high-risk behavior, vehicle involvement, environmental impact**, and generates **actionable insights** to support data-driven road safety decisions.
+A sophisticated Streamlit application designed to analyze Indian traffic violation data, identifying patterns, risk hotspots, and driver behaviors to inform policy and enforcement.
 
+## 🌟 Key Features
 
-## 📌 Project Overview
+### 1. **Interactive Dashboard**
+A futuristic control center featuring a high-level overview of traffic statistics, financial impact, and real-time trend analysis. Includes a clear summary of total violations, fines collected, and top offenses.
 
-The **Smart Traffic Violation Pattern Detector** is a data-driven system built using Python that transforms raw traffic violation records into meaningful visual insights.  
-It helps understand **when, where, how, and why** traffic violations occur.
+### 2. **India Risk Map Analysis**
+Geospatial visualization of violation hotspots across Indian states.
+- **Folium Integration**: Interactive map with marker clusters.
+- **Plotly Mapbox**: Heatmap interactions for deep dives.
 
+### 3. **Deep Trend Analytics**
+- **Violation Trends**: Sunburst charts and scatter plots to correlate vehicle types with violations.
+- **Time Analysis**: Stacked area charts and polar clock views to identify peak violation hours.
+- **Driver Behavior**: Violin plots analyzing age and gender demographics.
 
-## ✨ Key Features
+### 4. **Financial Insights**
+- Cumulative revenue tracking to see the financial progression of fine collections.
+- Payment status breakdown (Paid vs Unpaid).
 
-- 📊 Interactive dashboards with dynamic filters  
-- 🚗 Vehicle-wise traffic violation analysis  
-- ⏱ Time & trend analysis (hourly, daily, monthly, yearly)  
-- 🧍 Driver behaviour profiling and risk categorization  
-- 🌦 Environmental impact analysis (weather, road condition, time of day)  
-- 🔥 Heatmaps for violation vs vehicle frequency  
-- 💰 Fine amount and payment method analysis  
-- 🧠 Auto-generated insights and recommendations  
+## 🚀 How to Run
 
+1. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## 🛠 Tech Stack
+2. **Launch the App**:
+   ```bash
+   streamlit run main.py
+   ```
 
-- **Programming Language:** Python  
-- **Web Framework:** Streamlit  
-- **Data Analysis:** Pandas, NumPy  
-- **Data Visualization:** Matplotlib, Seaborn  
+## 📸 Feature Previews
+
+![Dashboard Preview](assets/dashboard_preview.png)
+
+*Dashboard Overview showing Key Metrics and Real-time Trends.*
