@@ -23,12 +23,19 @@ Geospatial visualization of violation hotspots across Indian states.
 
 ## 🚀 How to Run
 
-1. **Install Dependencies**:
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/gaurijoshi1309/smart-traffic-violation-pattern-detector.git
+    cd smart-traffic-violation-pattern-detector
+    ```
+
+2. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-2. **Launch the App**:
+3. **Launch the App**:
    ```bash
    streamlit run main.py
    ```
